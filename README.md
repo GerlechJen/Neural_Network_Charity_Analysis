@@ -1,5 +1,7 @@
 # Neural_Network_Charity_Analysis
 
+## Overview
+
 
 A non-profit philanthropic foundation Alphabet Soup dedicated to helping organizations that protect the environment, improve peoples well being, and unify the world 
 The foundation has raised and donated over 10 billion dollars in the past 20 years. The money has been used to invest in life saving technologies and organize reforge station groups around the world.
@@ -11,7 +13,7 @@ To help test and optimize the model, I will be using my knowledge on statistics 
 
 
 
-
+## Results
 
 
 
