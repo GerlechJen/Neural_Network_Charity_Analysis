@@ -35,6 +35,8 @@ Continuing, I optimized the model.
 ## Summary
 
 
+Increasing the number of epochs.
+Binning in a different way???
 
 ----
 
