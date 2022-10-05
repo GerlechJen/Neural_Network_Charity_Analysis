@@ -26,24 +26,25 @@ What variable(s) are considered to be the features for your model?
 The features for the mofel are the APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS and ASK_AMT        columns.
 
 What variable(s) are neither targets nor features, and should be removed from the input data?
+The 'EIN' & 'NAME' columns were expected not to have much effect on our model so were removed from the input data. 
 
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
-I started my model with two layers. The first layer had 80 neurons and the second layer had 30 neurons. There was also an output layer. Each layer has an activation function. The first and second hidden layers have an activation function "relu" and the output layer is "sigmoid". When I wanted to achieve accuracy of 75% I played around my analysis a lot. There were times I had 6 hidden layers and and had neurons in th efirst layer being 
+I started my model with two layers. The first layer had 80 neurons and the second layer had 30 neurons. There was also an output layer. Each layer had an activation function. The first and second hidden layers have an activation function "relu" and the output layer is "sigmoid". 
 
 Were you able to achieve the target model performance?
 No I was not able to achieve the target model performance of 75%.
 
 What steps did you take to try and increase model performance?
 
-Some of the steps I took to try and make the model more accurate were adding hidden layers, changing the activation type, changing the number of epochs and changing the number of neurons in each layer.
+Some of the steps I took to try and make the model more accurate were:
 
-1. Removed more variables from features
+* Removed more variables from features
 
-2. Changed the number of epochs
+* Changed the number of epochs
 
-3. Changed the number of neurons in hidden layers
+* Changed the number of neurons in hidden layers
 
-4. Added more hidden layers
+* Added more hidden layers
 
 
 
