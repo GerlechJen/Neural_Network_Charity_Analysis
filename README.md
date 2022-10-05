@@ -36,11 +36,13 @@ To increase the model performnace I:
 
 1. Removed noisy variables from features
 
-2. Added Additional neurons to hidden layers
+2. I binned in different ways 
 
-3. Added more hidden layers
+3. Added Additional neurons to hidden layers
 
-4. I changed the activation function of hidden layers or output layers to 
+4. Added more hidden layers
+
+5. I changed the activation function of hidden layers or output layers to 
 
 
 
