@@ -26,23 +26,24 @@ What variable(s) are considered to be the features for your model?
 What variable(s) are neither targets nor features, and should be removed from the input data?
 
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
+I started my model with two layers. The first layer had 80 neurons and the second layer had 30 neurons. There was also an output layer. Each layer has an activation function. The first and second hidden layers have an activation function "relu" and the output layer is "sigmoid". When I wanted to achieve accuracy of 75% I played around my analysis a lot. There were times I had 6 hidden layers and and had neurons in th efirst layer being 
 
 Were you able to achieve the target model performance?
-No I was not able to achieve the target moddel performance.
+No I was not able to achieve the target model performance of 75%.
 
 What steps did you take to try and increase model performance?
 
-To increase the model performnace I:
+Some of the steps I took to try and make the model more accurate were adding hidden layers, changing the activation type, changing the number of epochs and changing the number of neurons in each layer.
 
-1. Removed noisy variables from features
+1. Removed more variables from features
 
-2. I binned in different ways 
+2. Changed the number of epochs
 
-3. Added Additional neurons to hidden layers
+3. Changedf the number of neurons in hidden layers
 
 4. Added more hidden layers
 
-5. I changed the activation function of hidden layers or output layers to 
+
 
 
 
