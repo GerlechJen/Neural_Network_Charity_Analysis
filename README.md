@@ -34,13 +34,13 @@ What steps did you take to try and increase model performance?
 
 To increase the model performnace I:
 
-1.removed noisy variables from features
+1. Removed noisy variables from features
 
-2.added Additional neurons to hidden layers
+2. Added Additional neurons to hidden layers
 
 3. Added more hidden layers
 
-5. I changed the activation function of hidden layers or output layers to 
+4. I changed the activation function of hidden layers or output layers to 
 
 
 
