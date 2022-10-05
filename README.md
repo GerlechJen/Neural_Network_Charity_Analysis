@@ -20,8 +20,10 @@ Continuing, I optimized the model.
 
 Questions to be answered 
 What variable(s) are considered the target(s) for your model?
+The target for the model is the IS_SUCCESSFUL column
 
 What variable(s) are considered to be the features for your model?
+The features for the mofel are the APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS and ASK_AMT        columns.
 
 What variable(s) are neither targets nor features, and should be removed from the input data?
 
@@ -39,7 +41,7 @@ Some of the steps I took to try and make the model more accurate were adding hid
 
 2. Changed the number of epochs
 
-3. Changedf the number of neurons in hidden layers
+3. Changed the number of neurons in hidden layers
 
 4. Added more hidden layers
 
