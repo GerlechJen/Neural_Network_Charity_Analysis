@@ -18,8 +18,24 @@ After that I compiled, trained, and evaluated the model.
 
 Continuing, I optimized the model.
 
+Questions to be answered 
+What variable(s) are considered the target(s) for your model?
 
+What variable(s) are considered to be the features for your model?
 
+What variable(s) are neither targets nor features, and should be removed from the input data?
+
+How many neurons, layers, and activation functions did you select for your neural network model, and why?
+
+Were you able to achieve the target model performance?
+No I was not able to achieve the target moddel performance.
+
+What steps did you take to try and increase model performance?
+To increase the model performnace I:
+1.removed noisy variables from features
+2.added Additional neurons to hidden layers
+3. Added more hidden layers
+4. I changed the activation function of hidden layers or output layers to 
 
 
 
