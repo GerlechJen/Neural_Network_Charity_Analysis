@@ -8,11 +8,11 @@ A non-profit philanthropic foundation Alphabet Soup dedicated to helping organiz
 I have been asked to design a model that will accurately predict which organizations are worth donating to and which are too high risk. I will create a mathematical data driven solution which will do this accurately. With my knowledge of machine learning and neural networks, I will design and train a deep learning neural network that will evaluate all types of input data and produce a clear decision-making result using the python TensorFlow library. From Alphabet Soup’s business team, I have received a CSV containing more than 34,000 organizations that have received funding from Alphabet Soup over the years. Within this dataset are a number of columns that capture metadata about each organization. Using the features in the dataset I will create a binary classifier that is capable of predicting whether applicants will be successful if funded by Alphabet Soup.
 
 ## Results
-To commence the project, I preprocessed the data in order to compile, train, and evaluate the neural network model later. I encoded the categorical variables using one-hot encoding. After preproc3essing, the dataframe looked like this:
+To commence the project, I preprocessed the data in order to compile, train, and evaluate the neural network model later. I encoded the categorical variables using one-hot encoding and standardized numerical variables using Scikit-Learn’s StandardScaler class. After preprocessing, the dataframe looked like this:
 
 ![image1](https://github.com/GerlechJen/Neural_Network_Charity_Analysis/blob/main/IMAGES/image2.png)
 
-Afterwards I compiled, trained, and evaluated the model.
+Afterwards using TensorFlow, I designed a neural network to create a binary classification model that can predict if an Alphabet Soup–funded organization will be successful based on the features in the dataset. The number of input features was 43. I used two layers. The first layer had 80 neurons and the second layer had 30 neurons. There was also an output layer. Each layer had an activation function. The first and second hidden layers have an activation function "relu" and the output layer is "sigmoid". I then compiled, trained, and evaluated the binary classification model to calculate the model’s loss and accuracy.
 
 Continuing, I optimized the model.
 
