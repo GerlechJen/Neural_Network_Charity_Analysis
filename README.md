@@ -48,7 +48,7 @@ No I was not able to achieve the target model performance of above 75%.
 
 Some of the steps I took to try and make the model more accurate were:
 
-1. Removed more variables from features
+1. Removing more variables from features
 
 2. Binning the INCOME_AMT column
 
