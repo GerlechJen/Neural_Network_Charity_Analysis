@@ -12,7 +12,13 @@ To commence the project, I preprocessed the data in order to compile, train, and
 
 ![image1](https://github.com/GerlechJen/Neural_Network_Charity_Analysis/blob/main/IMAGES/image2.png)
 
-Afterwards using TensorFlow, I designed a neural network to create a binary classification model that can predict if an Alphabet Soup–funded organization will be successful based on the features in the dataset. The number of input features was 43. I used two layers. The first layer had 80 neurons and the second layer had 30 neurons. There was also an output layer. Each layer had an activation function. The first and second hidden layers have an activation function "relu" and the output layer is "sigmoid". I then compiled, trained, and evaluated the binary classification model to calculate the model’s loss and accuracy.
+Afterwards using TensorFlow, I designed a neural network to create a binary classification model that can predict if an Alphabet Soup–funded organization will be successful based on the features in the dataset. The number of input features was 43. I used two layers. The first layer had 80 neurons and the second layer had 30 neurons. There was also an output layer. Each layer had an activation function. The first and second hidden layers have an activation function "relu" and the output layer is "sigmoid". The image below shows the structure of the model. 
+
+![image](https://github.com/GerlechJen/Neural_Network_Charity_Analysis/blob/main/IMAGES/model_structure.png)
+
+I then compiled, trained, and evaluated the binary classification model to calculate the model’s loss and accuracy. The results are shown in the below image:
+
+![image4](https://github.com/GerlechJen/Neural_Network_Charity_Analysis/blob/main/IMAGES/model_performance.png)
 
 Continuing, I optimized the model.
 
