@@ -20,7 +20,7 @@ I then compiled, trained, and evaluated the binary classification model to calcu
 
 ![image4](https://github.com/GerlechJen/Neural_Network_Charity_Analysis/blob/main/IMAGES/model_performance.png)
 
-As seen from the image above, the accuracy of the model was 72.9% . My goal was to obtain a predictive accuracy higher than 75%. So I tried optimizing the model in three different scenarios. In my first attempt I hadf a similar accuracy of 72.9%. My second attempt produced an accuracy of 72.7% and third attempt an accuracy of 71.3%.
+As seen from the image above, the accuracy of the model was 72.9% . My goal was to obtain a predictive accuracy higher than 75%. So I tried optimizing the model in three different scenarios. In my first attempt I had a similar accuracy of 72.9%. My second attempt produced an accuracy of 72.7% and third attempt an accuracy of 71.3%.
 
 ### Questions to be answered 
 
