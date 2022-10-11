@@ -20,7 +20,7 @@ I then compiled, trained, and evaluated the binary classification model to calcu
 
 ![image4](https://github.com/GerlechJen/Neural_Network_Charity_Analysis/blob/main/IMAGES/model_performance.png)
 
-Continuing, I optimized the model.
+As seen from the image above, the accuracy of the model was 72.9% . My goal was to obtain a predictive accuracy higher than 75%. So I tried optimizing the model in three different scenarios. In my first attempt I hadf a similar accuracy of 72.9%. My second attempt produced an accuracy of 72.7% and third attempt an accuracy of 71.3%.
 
 ### Questions to be answered 
 
@@ -50,18 +50,27 @@ Some of the steps I took to try and make the model more accurate were:
 
 1. Removed more variables from features
 
-2. Changed the number of epochs
+2. Binning the INCOME_AMT column
 
-3. Changed the number of neurons in hidden layers
+3. Decreasing the number of values for the APPLICATION_TYPE bin 
 
-4. Added more hidden layers
+4. Changing the number of epochs
+
+5. Changing the number of neurons in hidden layers
+
+6. Adding more hidden layers
+
+7. Changing the activation function of hidden layers to tanh
 
 
 ## Summary
+The model's accuracy was always approximately 73%. The goal of a predictive accuracy above 75%  could not be attained after various attempts were made. 
 
 
 Increasing the number of epochs.
 Binning in a different way???
+
+My recommendation is to use the RandomForest Classifier Model. It can handle binary features, categorical features, and numerical features. There is very little pre-processing that would need to be done and the data does not need to be rescaled or transformed. The RandomForest modedl also produces higher level of accuracy in predicting outcomes. 
 
 ----
 
