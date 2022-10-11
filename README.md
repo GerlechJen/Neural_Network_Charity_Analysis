@@ -31,20 +31,20 @@ The 'EIN' & 'NAME' columns were expected not to have much effect on our model so
 I started my model with two layers. The first layer had 80 neurons and the second layer had 30 neurons. There was also an output layer. Each layer had an activation function. The first and second hidden layers have an activation function "relu" and the output layer is "sigmoid". 
 
 - Were you able to achieve the target model performance?
-- 
+
 No I was not able to achieve the target model performance of 75%.
 
 - What steps did you take to try and increase model performance?
 
 Some of the steps I took to try and make the model more accurate were:
 
-* Removed more variables from features
+1. Removed more variables from features
 
-* Changed the number of epochs
+2. Changed the number of epochs
 
-* Changed the number of neurons in hidden layers
+3. Changed the number of neurons in hidden layers
 
-* Added more hidden layers
+4. Added more hidden layers
 
 
 ## Summary
