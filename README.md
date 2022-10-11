@@ -42,7 +42,7 @@ I started my model with two layers. The first layer had 80 neurons and the secon
 
 - Were you able to achieve the target model performance?
 
-No I was not able to achieve the target model performance of 75%.
+No I was not able to achieve the target model performance of above 75%.
 
 - What steps did you take to try and increase model performance?
 
