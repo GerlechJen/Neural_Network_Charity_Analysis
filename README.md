@@ -48,19 +48,19 @@ No I was not able to achieve the target model performance of above 75%.
 
 Some of the steps I took to try and make the model more accurate were:
 
-1. Removing more variables from features
+1. Removing more variables from features.
 
-2. Binning the INCOME_AMT column
+2. Binning the INCOME_AMT column.
 
-3. Decreasing the number of values for the APPLICATION_TYPE bin 
+3. Decreasing the number of values for the APPLICATION_TYPE bin.
 
-4. Changing the number of epochs
+4. Changing the number of epochs.
 
-5. Changing the number of neurons in hidden layers
+5. Changing the number of neurons in hidden layers.
 
-6. Adding more hidden layers
+6. Adding more hidden layers.
 
-7. Changing the activation function of hidden layers to tanh
+7. Changing the activation function of some hidden layers to tanh.
 
 
 ## Summary
