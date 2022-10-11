@@ -12,28 +12,29 @@ To commence the project, I preprocessed the data in order to compile, train, and
 
 Continuing, I optimized the model.
 
-Questions to be answered 
+### Questions to be answered 
 
-What variable(s) are considered the target(s) for your model?
+- What variable(s) are considered the target(s) for your model?
 
 The target for the model is the IS_SUCCESSFUL column
 
-What variable(s) are considered to be the features for your model?
+- What variable(s) are considered to be the features for your model?
 
 The features for the model are the APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS and ASK_AMT        columns.
 
-What variable(s) are neither targets nor features, and should be removed from the input data?
+- What variable(s) are neither targets nor features, and should be removed from the input data?
 
 The 'EIN' & 'NAME' columns were expected not to have much effect on our model so were removed from the input data. 
 
-How many neurons, layers, and activation functions did you select for your neural network model, and why?
+- How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
 I started my model with two layers. The first layer had 80 neurons and the second layer had 30 neurons. There was also an output layer. Each layer had an activation function. The first and second hidden layers have an activation function "relu" and the output layer is "sigmoid". 
 
-Were you able to achieve the target model performance?
+- Were you able to achieve the target model performance?
+- 
 No I was not able to achieve the target model performance of 75%.
 
-What steps did you take to try and increase model performance?
+- What steps did you take to try and increase model performance?
 
 Some of the steps I took to try and make the model more accurate were:
 
