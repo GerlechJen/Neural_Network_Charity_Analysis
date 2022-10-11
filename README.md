@@ -64,13 +64,9 @@ Some of the steps I took to try and make the model more accurate were:
 
 
 ## Summary
-The model's accuracy was always approximately 73%. The goal of a predictive accuracy above 75%  could not be attained after various attempts were made. 
+The model's accuracy was always approximately 73%. In one instance it was just 71.3%. The goal of a predictive accuracy above 75% could not be attained after various attempts were made. If there was more data the accuracy could have probably been increased. 
 
-
-Increasing the number of epochs.
-Binning in a different way???
-
-My recommendation is to use the RandomForest Classifier Model. It can handle binary features, categorical features, and numerical features. There is very little pre-processing that would need to be done and the data does not need to be rescaled or transformed. The RandomForest modedl also produces higher level of accuracy in predicting outcomes. 
+My recommendation is to use the RandomForest Classifier model. This model can handle binary features, categorical features, and numerical features. It requires very little pre-processing and the data does not need to be rescaled or transformed. The RandomForest model also produces higher level of accuracy in predicting outcomes. 
 
 ----
 
